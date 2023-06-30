@@ -7,7 +7,6 @@ class ToggleButtonsScreen extends StatelessWidget {
   ToggleButtonsScreen({super.key});
 
   final TBController c = Get.put(TBController());
-  final bool vertical = false;
 
   @override
   Widget build(BuildContext context) {

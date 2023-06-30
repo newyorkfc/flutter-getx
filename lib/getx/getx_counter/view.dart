@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_getx/getx/getx_counter/view_model.dart';
+import 'package:flutter_getx/getx/getx_dropdown_button/view.dart';
 import 'package:flutter_getx/getx/getx_toggle_buttons/view.dart';
 import 'package:get/get.dart';
 
@@ -32,6 +33,11 @@ class Home extends StatelessWidget {
               child: const Text("Go to ToggleButtonsScreen"),
               onPressed: () => Get.to(
                 ToggleButtonsScreen(),
+              ),
+            ),ElevatedButton(
+              child: const Text("Go to DropdownButtonScreen"),
+              onPressed: () => Get.to(
+                DropdownButtonScreen(),
               ),
             ),
           ],
